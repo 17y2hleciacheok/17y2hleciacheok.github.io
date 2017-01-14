@@ -5,3 +5,7 @@ color: purple
 body{
 background-color: 	#E6E6FA;
 }
+
+img{
+  max-width: 250px;
+}
