@@ -1,23 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      div.container {
+        width: 100%;
+        border: 1px solid gray;
+      }
+  header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+      nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+      
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    
+    <header>
+      <h1>My Personal Website<.h1>
+        </header>
+ <nav>
+   <ul>
+     <li><a href="https://www.instagram.com/l.3.c.1.a/">My Instagram account</a></li>
+     <li><a href="https://twitter.com/l3c1a">My Twitter account</a></li>  
+   </ul>
+   <article>
 <h1>Welcome to my home</h1>
     <img src="photo.jpg"/>
-    <h2>About</h2>
+    <h2>About Me!</h2>
     <p>My name is Lecia Cheok.</p>
-    <p>I am a 14 year old student in <a href="dunmanhigh.moe.edu.sg">Dunman High School</a>, Singapore</p>
-    <h2>Interests</h2>
+    <p>I am a 14 year old student in <a href="dunmanhigh.moe.edu.sg">Dunman High School</a>, 
+      <a href="https://en.wikipedia.org/wiki/Singapore'>Singapore</a></p>
+    <h2>My Interests!</h2>
     <p>I am interested in 
     <ul>
-    <li>reading</li> 
-    <li><a href="https://www.wattpad.com/">writing</a></li> 
-    <li>watching videos on YouTube.</li>
-    </ul></p>
+   <li><a href="https://www.wattpad.com/?nexturl=https://www.wattpad.com/home>reading/writing</a></li>
+   <li>shooting<li>
+   <li><a href="https://www.youtube.com/">watching videos on YouTube</a></li>
+   <li><a href="https://www.spotify.com/sg-en/">listening to music</a></li>
+   
+   </ul>
+   
     <p> I am a Google Code-in 2016 participant with <a href="http://fossasia.org">FOSSASIA</a></p>
-    
-  </body>
+
+   </article>
+        
+      <footer>The lab smells like rotten eggs, you say? Sorry to hear you sulfuring.</footer>
+      
+      </div>
+    </body>
 </html>
