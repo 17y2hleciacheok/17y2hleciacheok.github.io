@@ -22,7 +22,7 @@
 header {background: #ffff7f;
         color:black;
         font-family:century gothic;
-        font-size:38px;}
+        font-size:36px;}
 footer {background: #ffff7f;
         color:black;
         font-family:century gothic;
@@ -31,8 +31,8 @@ footer {background: #ffff7f;
       color:#808080;
       font-family:century gothic;
       font-size:26px;}
-img  {height:400px;
-      width:320px;}
+img  {height:200px;
+      width:140px;}
       
 .nav ul {
     list-style-type: none;
